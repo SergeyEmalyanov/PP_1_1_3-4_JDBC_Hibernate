@@ -96,7 +96,6 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
     public void cleanUsersTable() {
-        createUsersTable();
         statement(DELETE_ALL);
     }
 
